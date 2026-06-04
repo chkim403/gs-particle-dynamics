@@ -82,15 +82,20 @@ initialization or CUDA module-loading commands based on your system.
 
 The released code requires only the processed dataset.
 
-Download the processed dataset from the link provided here:
-[Dropbox](https://www.dropbox.com/scl/fo/duwh81qrc3bnt3p5sao39/ABWBa-LPFX9Fd-aqCKtEsf0?rlkey=waf3pg6xp6ywsnlewo4r8ihln&e=1&dl=0). See
-[docs/processed_dataset.md](docs/processed_dataset.md) for the processed dataset structure
-and file descriptions. After downloading, update `data_dir` in `configs/config.yaml` to
-point to the processed dataset directory.
+We will host both the processed dataset and the raw dataset on Hugging Face. Until
+the Hugging Face release is available, the processed dataset can be downloaded
+temporarily from
+[Dropbox](https://www.dropbox.com/scl/fi/l2rgo1twei9co2muapft7/processed_data.zip?rlkey=9zqu5onr2sucx79igxmidv2pf&dl=0).
+
+See [docs/processed_dataset.md](docs/processed_dataset.md) for the processed dataset
+structure and file descriptions. After downloading, update `data_dir` in
+`configs/config.yaml` to point to the processed dataset directory.
 
 ## Raw Dataset
 
-Raw dataset details will be provided in [docs/raw_dataset.md](docs/raw_dataset.md).
+For those interested in accessing the original dataset files, we will also release
+the raw dataset on Hugging Face. Details will be provided in
+[docs/raw_dataset.md](docs/raw_dataset.md).
 
 ## Dataset License and Terms of Use
 
