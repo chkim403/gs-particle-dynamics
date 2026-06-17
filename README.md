@@ -15,7 +15,7 @@ We plan to release the following items before CVPR 2026. Current release status:
 - [x] Code
 - [x] Instructions
 - [x] Processed Dataset
-- [ ] Raw Dataset
+- [x] Raw Dataset
 - [ ] Visualization Code
 
 Note: the instructions are available and will be further updated as other release items become available.
@@ -78,24 +78,27 @@ The experiment scripts also activate a conda environment internally. If you use
 script to match your environment name. You may also need to adjust the conda
 initialization or CUDA module-loading commands based on your system.
 
-## Download Processed Dataset
+## Download Dataset
 
 The released code requires only the processed dataset.
 
-We will host both the processed dataset and the raw dataset on Hugging Face. Until
-the Hugging Face release is available, the processed dataset can be downloaded
-temporarily from
-[Dropbox](https://www.dropbox.com/scl/fi/l2rgo1twei9co2muapft7/processed_data.zip?rlkey=9zqu5onr2sucx79igxmidv2pf&dl=0).
+The processed and raw datasets are hosted on Hugging Face:
+[chkim403/gs_physics](https://huggingface.co/datasets/chkim403/gs_physics).
+
+The Hugging Face dataset release contains:
+
+- `processed_dataset.zip`: processed data required by the released training and
+  evaluation code.
+- `dataset.zip`: raw multi-view RGB/stereo/depth recordings, segmentation masks,
+  camera metadata.
 
 See [docs/processed_dataset.md](docs/processed_dataset.md) for the processed dataset
 structure and file descriptions. After downloading, update `data_dir` in
 `configs/config.yaml` to point to the processed dataset directory.
 
-## Raw Dataset
-
-For those interested in accessing the original dataset files, we will also release
-the raw dataset on Hugging Face. Details will be provided in
-[docs/raw_dataset.md](docs/raw_dataset.md).
+For those interested in accessing the original dataset files, see
+[docs/raw_dataset.md](docs/raw_dataset.md) for the raw dataset structure and file
+descriptions.
 
 ## Dataset License and Terms of Use
 

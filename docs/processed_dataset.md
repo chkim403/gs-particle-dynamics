@@ -12,7 +12,9 @@ This document describes the processed data for the dataset collected in [*Learni
 ├── cube_stacks/
 │   ├── train/
 │   └── test/
-└── README.md
+├── dataset_license.md
+├── dataset_terms_of_use.md
+└── processed_dataset.md
 ```
 
 Scene counts:
