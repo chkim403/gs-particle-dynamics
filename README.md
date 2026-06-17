@@ -8,9 +8,9 @@ CVPR 2026 Findings
 
 Project page: [https://chkim403.github.io/gs_physics/](https://chkim403.github.io/gs_physics/)
 
-## Release Plan
+## Release Status
 
-We plan to release the following items before CVPR 2026. Current release status:
+Current release status:
 
 - [x] Code
 - [x] Instructions
